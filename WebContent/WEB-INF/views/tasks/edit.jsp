@@ -8,8 +8,8 @@
             <c:import url="_form.jsp" />
         </form>
 
-        <p><a href="${pageContext.request.contextPath}/index">リスクにもどる</a></p>
-        <p><a href="#" onclick="confirmDestroy();">このメッセージを削除する</a></p>
+        <p><a href="${pageContext.request.contextPath}/index">リストにもどる</a></p>
+        <p><a href="#" onclick="confirmDestroy();">タスクを削除する</a></p>
         <form method="POST" action="${pageContext.request.contextPath}/destroy">
             <input type="hidden" name="_token" value="${_token}" />
         </form>
